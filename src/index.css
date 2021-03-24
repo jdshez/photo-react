@@ -1,0 +1,80 @@
+body { 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* These selectors used on each component to make Materialize footer sticky as it wasn't working as a footer component */ 
+section .foot-control {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+/* ---------------
+  NAVBAR COMPONENT
+  --------------- */ 
+@media only screen and (min-width: 993px) {
+  nav .dropdown-trigger.btn-flat {
+    display: none;
+  }
+}
+
+
+nav li a {
+  color: black;
+}
+
+nav .dropdown-content li > a {
+  color: black;
+} 
+
+nav .nav-wrapper {
+  margin-bottom: 10px;
+}
+
+nav .brand-logo {
+  font-family: 'Mr De Haviland', cursive, BlinkMacSystemFont, 'Montserrat', sans-serif;
+  font-weight: 1000;
+}
+/* ---------------
+  Home COMPONENT
+  --------------- */ 
+
+header {
+  background-image: url(images/nat1.jpg);
+  background-size: cover;
+  min-height:90vh;
+  margin-bottom: 4vw;
+}
+
+.photographer {
+  max-width: 40vh;
+}
+
+.intro {
+  font-family: 'Mr De Haviland', cursive, BlinkMacSystemFont, 'Montserrat', sans-serif;
+}
+
+/* ---------------
+  Gallery COMPONENT
+  --------------- */ 
+  .intro {
+  font-family: 'Mr De Haviland', cursive, BlinkMacSystemFont, 'Montserrat', sans-serif !important;
+}
+.port {
+  margin-top: 1rem;;
+}
